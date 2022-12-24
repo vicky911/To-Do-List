@@ -120,6 +120,7 @@ body {
   padding: 0.4rem;
   outline: none;
   font-size: 1.3rem;
+  overflow-wrap: break-word;
 }
 .ticket-lock {
   height: 2rem;
@@ -150,7 +151,7 @@ body {
     height: 55vh;
     top: calc((100vh - 55vh) / 2);
     left: calc((100vw - 75vw) / 2);
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .textarea-cont {
     width: 100%;
